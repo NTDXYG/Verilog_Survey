@@ -24,10 +24,10 @@
 - **复杂任务处理**：评估了 DAVE 在翻译复杂描述性任务方面的能力，突破了简单规定性形式的局限。
 
 ## 数据集
-![DAVE数据集示例](figs/dave_dataset.png "Figure 1 from DAVE paper: Example of English to Verilog translation")
+![DAVE数据集示例](figs/DAVE_dataset.png "Figure 1 from DAVE paper: Example of English to Verilog translation")
 
 ### 模板驱动的数据集构造方法
-![DAVE数据集构造方法](figs/dave_dataset_method.png "Figure 2 from DAVE paper: Example of English to Verilog translation")
+![DAVE数据集构造方法](figs/DAVE_dataset_method.png "Figure 2 from DAVE paper: Example of English to Verilog translation")
 
 1. **生成任务/结果元结构**
    定义任务类型（如组合逻辑赋值、寄存器、序列生成器等）和关键信息（变量名、运算符、输入输出关系等）。元结构示例：
@@ -80,7 +80,7 @@
   1. 单一任务：生成数千个任务对，覆盖赋值（pa系列）、寄存器（pr系列）、序列生成器（pg系列）等类型
   2. 多任务：随机生成5250个样本，其中5000个用于微调，250个用于验证
 
-![DAVE数据集规模分析](figs/dave_dataset_table.png "Figure 3 from DAVE paper: Dataset size analysis")
+![DAVE数据集规模分析](figs/DAVE_dataset_table.png "Figure 3 from DAVE paper: Dataset size analysis")
 
 ## 实验结果
 - **整体性能**：DAVE在所有验证测试中返回正确答案的比例为94.8%，展现出优异的翻译准确率。
