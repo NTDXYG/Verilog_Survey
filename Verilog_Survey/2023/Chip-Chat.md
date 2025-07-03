@@ -34,7 +34,7 @@ in Conversational Hardware Design
 
 
 ## 模型结构
-![alt text](image.png)
+![alt text](figs/Chip-Chat/Chip_Chat.png)
 
 ## 实验方法
 
