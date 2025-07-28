@@ -7,3 +7,4 @@
 - [x] 2024 MG-Verilog: Multi-grained Dataset Towards Enhanced LLM-assisted Verilog Generation
 - [ ] 2023 Chip-Chat: Challenges and Opportunities in Conversational Hardware Design
 - [ ] 2025 CodeV: Empowering LLMs with HDL Generation through Multi-Level Summarization
+- [x] 2025 ResBench: Benchmarking LLM-Generated FPGA Designs with Resource Awareness
